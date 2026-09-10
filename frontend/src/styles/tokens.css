@@ -1,0 +1,126 @@
+:root {
+  /* Color Palette - Clean Light Command Center & Environmental Technology */
+  --bg-white: #FFFFFF;
+  --bg-light-50: #F8FAFC;
+  --bg-light-100: #F1F5F9;
+  --bg-light-200: #E2E8F0;
+  --bg-light-300: #CBD5E1;
+
+  /* Foundation Surfaces */
+  --bg-dark-950: #FFFFFF;
+  --bg-dark-900: #F8FAFC;
+  --bg-dark-850: #F1F5F9;
+  --bg-dark-800: #F8FAFC;
+  --bg-dark-750: #F1F5F9;
+  --bg-dark-700: #E2E8F0;
+  --bg-dark-600: #CBD5E1;
+
+  --card-bg: #FFFFFF;
+  --card-bg-solid: #FFFFFF;
+  --card-border: #E2E8F0;
+  --card-border-subtle: #F1F5F9;
+  --card-border-hover: #CBD5E1;
+  --card-border-glow: rgba(22, 163, 74, 0.15);
+
+  /* High-Contrast Typography */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-dim: #94A3B8;
+  --text-inverse: #FFFFFF;
+
+  /* Primary Brand & Accent: Forest Green */
+  --primary-700: #15803D;
+  --primary-600: #16A34A;
+  --primary-500: #22C55E;
+  --primary-400: #4ADE80;
+  --primary-300: #86EFAC;
+  --primary-100: #DCFCE7;
+  --primary-50: #F0FDF4;
+  --primary-glow: rgba(22, 163, 74, 0.15);
+
+  /* Cyan / Blue: Hydrological Telemetry */
+  --accent-cyan: #0284C7;
+  --accent-cyan-soft: #38BDF8;
+  --accent-cyan-bg: #E0F2FE;
+  --accent-cyan-border: #BAE6FD;
+
+  /* Supporting Accents */
+  --accent-teal: #0D9488;
+  --accent-purple: #16A34A;
+
+  /* Hazard Branch Distinction */
+  --hazard-flood: #0284C7;
+  --hazard-flood-light: #38BDF8;
+  --hazard-flood-bg: #E0F2FE;
+  --hazard-flood-border: #BAE6FD;
+
+  --hazard-landslide: #EA580C;
+  --hazard-landslide-light: #F97316;
+  --hazard-landslide-bg: #FFEDD5;
+  --hazard-landslide-border: #FED7AA;
+
+  --hazard-fusion: #15803D;
+  --hazard-fusion-light: #16A34A;
+  --hazard-fusion-bg: #DCFCE7;
+  --hazard-fusion-border: #86EFAC;
+
+  /* Standardized Risk Levels (Crisp Light Badges) */
+  --risk-low: #15803D;
+  --risk-low-bg: #DCFCE7;
+  --risk-low-border: #BBF7D0;
+
+  --risk-moderate: #B45309;
+  --risk-moderate-bg: #FEF3C7;
+  --risk-moderate-border: #FDE68A;
+
+  --risk-high: #C2410C;
+  --risk-high-bg: #FFEDD5;
+  --risk-high-border: #FED7AA;
+
+  --risk-very-high: #B91C1C;
+  --risk-very-high-bg: #FEE2E2;
+  --risk-very-high-border: #FECACA;
+
+  --risk-critical: #B91C1C;
+  --risk-critical-bg: #FEE2E2;
+  --risk-critical-border: #FECACA;
+
+  /* Operating Modes */
+  --mode-live: #16A34A;
+  --mode-cached: #D97706;
+  --mode-demo: #0284C7;
+  --mode-unavailable: #64748B;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', var(--font-sans);
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Soft Light Shadows */
+  --glass-backdrop: blur(12px);
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 8px 24px -3px rgba(15, 23, 42, 0.08);
+  --shadow-glow-green: 0 0 12px rgba(22, 163, 74, 0.15);
+
+  /* Geometry - Clean Card Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Layout & Spacing System */
+  --max-content-width: 1440px;
+  --content-padding-x: 1.5rem;
+  --section-gap: 1.5rem;
+  --card-padding: 1.25rem;
+  --card-padding-lg: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
